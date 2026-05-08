@@ -1,0 +1,29 @@
+file 1330 1778212957                                            
+version 3
+run General-0-20260508-10:01:01-1100
+attr configname General
+attr datetime 20260508-10:01:01
+attr datetimef 20260508-100101
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HopCountNet
+attr processid 1100
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network HopCountNet
+config sim-time-limit 100s
+config **.sender.numPackets 50
+config output-scalar-file results/HopCount-General.sca
+config output-vector-file results/HopCount-General.vec
+config cmdenv-express-mode false
+
+vector 0 HopCountNet.receiver hopCount ETV
+0	707 621 15 544 0 4.9 48 4 18 406 4104
+

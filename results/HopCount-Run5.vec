@@ -1,0 +1,75 @@
+version 3
+run Run5-0-20260508-10:20:37-18540
+attr configname Run5
+attr datetime 20260508-10:20:37
+attr datetimef 20260508-102037
+attr experiment Run5
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HopCountNet
+attr processid 18540
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 1234
+config description "Seed 1234"
+config seed-set 1234
+config network HopCountNet
+config sim-time-limit 100s
+config **.sender.numPackets 50
+config output-scalar-file results/HopCount-Run5.sca
+config output-vector-file results/HopCount-Run5.vec
+config cmdenv-express-mode false
+
+vector 0 HopCountNet.receiver hopCount ETV
+0	6	0	4
+0	18	0.1	10
+0	25	0.2	5
+0	37	0.3	10
+0	46	0.4	7
+0	59	0.5	11
+0	69	0.6	8
+0	80	0.7	9
+0	87	0.8	5
+0	117	1	7
+0	130	1.1	11
+0	145	1.2	13
+0	161	1.3	14
+0	169	1.4	6
+0	176	1.5	5
+0	186	1.6	8
+0	199	1.7	11
+0	209	1.8	8
+0	221	1.9	10
+0	228	2	5
+0	239	2.1	9
+0	255	2.2	14
+0	270	2.3	13
+0	279	2.4	7
+0	286	2.5	5
+0	300	2.6	12
+0	307	2.7	5
+0	337	2.9	7
+0	345	3	6
+0	383	3.2	15
+0	396	3.3	11
+0	405	3.4	7
+0	419	3.5	12
+0	425	3.6	4
+0	431	3.7	4
+0	442	3.8	9
+0	459	3.9	15
+0	477	4	16
+0	483	4.1	4
+0	490	4.2	5
+0	499	4.3	7
+0	531	4.5	9
+0	552	4.6	19
+0	563	4.7	9
+0	570	4.8	5
+0	581	4.9	9
+

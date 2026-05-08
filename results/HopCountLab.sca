@@ -1,0 +1,45 @@
+version 3
+run General-0-20260508-08:39:57-10788
+attr configname General
+attr datetime 20260508-08:39:57
+attr datetimef 20260508-083957
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HopCountMesh
+attr processid 10788
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network HopCountMesh
+config sim-time-limit 100s
+config **.ttl 20
+config output-scalar-file results/HopCountLab.sca
+config output-vector-file results/HopCountLab.vec
+config **.scalar-recording true
+config **.vector-recording false
+
+scalar HopCountMesh.receiver finalHopCount 19
+scalar HopCountMesh.receiver remainingTTL 1
+par HopCountMesh.sender typename "\"Sender\""
+par HopCountMesh.sender ttl 20
+par HopCountMesh.r0 typename "\"Router\""
+par HopCountMesh.r1 typename "\"Router\""
+par HopCountMesh.r2 typename "\"Router\""
+par HopCountMesh.r3 typename "\"Router\""
+par HopCountMesh.r4 typename "\"Router\""
+par HopCountMesh.r5 typename "\"Router\""
+par HopCountMesh.r6 typename "\"Router\""
+par HopCountMesh.r7 typename "\"Router\""
+par HopCountMesh.r8 typename "\"Router\""
+par HopCountMesh.r9 typename "\"Router\""
+par HopCountMesh.r10 typename "\"Router\""
+par HopCountMesh.r11 typename "\"Router\""
+par HopCountMesh.receiver typename "\"Receiver\""
+par HopCountMesh typename "\"HopCountMesh\""
+

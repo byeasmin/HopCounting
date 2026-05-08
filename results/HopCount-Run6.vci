@@ -1,0 +1,31 @@
+file 1311 1778214207                                            
+version 3
+run Run6-0-20260508-10:22:28-3064
+attr configname Run6
+attr datetime 20260508-10:22:28
+attr datetimef 20260508-102228
+attr experiment Run6
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HopCountNet
+attr processid 3064
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 9999
+config description "Seed 9999"
+config seed-set 9999
+config network HopCountNet
+config sim-time-limit 100s
+config **.sender.numPackets 50
+config output-scalar-file results/HopCount-Run6.sca
+config output-vector-file results/HopCount-Run6.vec
+config cmdenv-express-mode false
+
+vector 0 HopCountNet.receiver hopCount ETV
+0	749 560 11 517 0 4.9 44 4 16 303 2423
+

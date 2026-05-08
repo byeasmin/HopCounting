@@ -1,0 +1,104 @@
+version 3
+run Run6-0-20260508-10:22:28-3064
+attr configname Run6
+attr datetime 20260508-10:22:28
+attr datetimef 20260508-102228
+attr experiment Run6
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network HopCountNet
+attr processid 3064
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 9999
+config description "Seed 9999"
+config seed-set 9999
+config network HopCountNet
+config sim-time-limit 100s
+config **.sender.numPackets 50
+config output-scalar-file results/HopCount-Run6.sca
+config output-vector-file results/HopCount-Run6.vec
+config cmdenv-express-mode false
+
+scalar HopCountNet.receiver finalHopCount 9
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 14
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 7
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 9
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 9
+scalar HopCountNet.receiver finalHopCount 8
+scalar HopCountNet.receiver finalHopCount 9
+scalar HopCountNet.receiver finalHopCount 8
+scalar HopCountNet.receiver finalHopCount 10
+scalar HopCountNet.receiver finalHopCount 7
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 8
+scalar HopCountNet.receiver finalHopCount 11
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 12
+scalar HopCountNet.receiver finalHopCount 16
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 7
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 8
+scalar HopCountNet.receiver finalHopCount 7
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 8
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 11
+scalar HopCountNet.receiver finalHopCount 7
+scalar HopCountNet.receiver finalHopCount 6
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 5
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 4
+scalar HopCountNet.receiver finalHopCount 4
+par HopCountNet.sender typename "\"Sender\""
+par HopCountNet.sender numPackets 50
+par HopCountNet.receiver typename "\"Receiver\""
+statistic HopCountNet.receiver hopCount
+field count 44
+field mean 6.8863636363636
+field stddev 2.7971406420969
+field min 4
+field max 16
+field sum 303
+field sqrsum 2423
+par HopCountNet.r0 typename "\"Router\""
+scalar HopCountNet.r0 droppedPackets 0
+par HopCountNet.r1 typename "\"Router\""
+scalar HopCountNet.r1 droppedPackets 0
+par HopCountNet.r2 typename "\"Router\""
+scalar HopCountNet.r2 droppedPackets 0
+par HopCountNet.r3 typename "\"Router\""
+scalar HopCountNet.r3 droppedPackets 0
+par HopCountNet.r4 typename "\"Router\""
+scalar HopCountNet.r4 droppedPackets 0
+par HopCountNet.r5 typename "\"Router\""
+scalar HopCountNet.r5 droppedPackets 0
+par HopCountNet.r6 typename "\"Router\""
+scalar HopCountNet.r6 droppedPackets 1
+par HopCountNet.r7 typename "\"Router\""
+scalar HopCountNet.r7 droppedPackets 0
+par HopCountNet.r8 typename "\"Router\""
+scalar HopCountNet.r8 droppedPackets 2
+par HopCountNet.r9 typename "\"Router\""
+scalar HopCountNet.r9 droppedPackets 3
+par HopCountNet typename "\"HopCountNet\""
+
