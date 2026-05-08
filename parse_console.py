@@ -16,6 +16,7 @@ import re
 # ── Paste the console output of each run here ──────────────────
 # For each run, the "Packets received" and "Average hop count" lines are required
 
+
 console_outputs = {
     42:   """
 Packets received : 48
@@ -24,12 +25,42 @@ Min hop count    : 4
 Max hop count    : 18
 Std deviation    : 3.77539
 """,
-   # Paste the remaining runs here after completing them:
-    100:  "",
-    255:  "",
-    777:  "",
-    1234: "",
-    9999: "",
+    # Paste the remaining runs here after completing them:
+    100:  """
+Packets received : 47
+Average hop count: 8.97872
+Min hop count    : 4
+Max hop count    : 19
+Std deviation    : 4.33634
+""",
+    255:  """
+Packets received : 44
+Average hop count: 7.70455
+Min hop count    : 4
+Max hop count    : 19
+Std deviation    : 3.77618
+""",
+    777:  """
+Packets received : 46
+Average hop count: 7.86957
+Min hop count    : 4
+Max hop count    : 18
+Std deviation    : 3.30393
+""",
+    1234: """
+Packets received : 47
+Average hop count: 8.42553
+Min hop count    : 4
+Max hop count    : 19
+Std deviation    : 4.0311
+""",
+    9999: """
+Packets received : 46
+Average hop count: 8.80435
+Min hop count    : 4
+Max hop count    : 19
+Std deviation    : 3.68552
+""",
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
