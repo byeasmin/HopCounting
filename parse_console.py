@@ -2,19 +2,19 @@
 """
 parse_console.py
 ================
-তোমার OMNeT++ console output থেকে hopCount values সংগ্রহ করে
-analyze_results.py এর MANUAL_RESULTS এ বসানোর জন্য দেখায়।
+Collects hopCount values from your OMNeT++ console output
+and displays them for insertion into MANUAL_RESULTS in analyze_results.py.
 
 Usage:
-    1. OMNeT++ এ প্রতিটা run শেষে Console এর output copy করো
-    2. নিচের console_outputs dict এ seed অনুযায়ী paste করো
-    3. python parse_console.py চালাও
+    1. After each OMNeT++ run, copy the console output
+    2. Paste it into the console_outputs dictionary below according to the seed
+    3. Run: python parse_console.py
 """
 
 import re
 
-# ── তোমার প্রতিটা run এর console output এখানে paste করো ──────────────────
-# প্রতিটা run এর "Packets received" এবং "Average hop count" লাইন দরকার
+# ── Paste the console output of each run here ──────────────────
+# For each run, the "Packets received" and "Average hop count" lines are required
 
 console_outputs = {
     42:   """
@@ -24,7 +24,7 @@ Min hop count    : 4
 Max hop count    : 18
 Std deviation    : 3.77539
 """,
-    # বাকি run গুলো run করার পর এখানে paste করো:
+   # Paste the remaining runs here after completing them:
     100:  "",
     255:  "",
     777:  "",
